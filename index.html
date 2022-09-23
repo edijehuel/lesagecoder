@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SageCoders">
+    <link rel="stylesheet" href="bootstrap V5/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" />
+    <link href="/css/chunk-vendors.bb9e7e9e.css" rel="stylesheet" />
+    <link href="/css/app.5395816a.css" rel="stylesheet" />
+    <title>SageCoders</title>
+</head>
+
+<body>
+    <div data-app="true" class="v-application v-application--is-ltr theme--light" id="app">
+        <div class="v-application--wrap">
+            <div class="v-card v-sheet theme--light">
+
+                <header class="v-sheet theme--light elevation-0 v-toolbar v-toolbar--dense v-toolbar--flat v-app-bar v-app-bar--fixed white"data-booted="true" style="height: 48px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;">
+                    <div class="v-toolbar__content" style="height: 48px">
+                        <button type="button" class="v-app-bar__nav-icon v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-menu theme--light"></i></span></button>
+                        <div class="text-uppercase v-toolbar__title v-app-bar-title">
+                            <div class="v-app-bar-title__content" style="visibility: hidden; width: 125.234px">
+                                SageCoders
+                            </div>
+                            <div class="v-app-bar-title__placeholder" style="visibility: visible">
+                                SageCoders
+                            </div>
+                        </div>
+                        <div class="spacer"></div>
+                        <a href="#home" class="v-btn v-btn--text theme--light v-size--default info--text text--darken-2"><span class="v-btn__content"><span class="mr-2">Accueil</span></span></a>
+                                <a href="#services" class="v-btn v-btn--text theme--light v-size--default info--text text--darken-2"><span class="v-btn__content"><span class="mr-2">Services</span></span></a>
+                                <a href="#about" class="v-btn v-btn--text theme--light v-size--default info--text text--darken-2"><span class="v-btn__content"><span class="mr-2">A Propos</span></span></a>
+                                <a href="#team" class="v-btn v-btn--text theme--light v-size--default info--text text--darken-2"><span class="v-btn__content"><span class="mr-2">Equipe</span></span></a>
+                                <a href="#contact" class="v-btn v-btn--text theme--light v-size--default info--text text--darken-2"><span class="v-btn__content"><span class="mr-2">Contact</span></span></a>
+                                <a href="https://api.whatsapp.com/send?phone=2250555884378" class="my-3 v-btn v-btn--is-elevated v-btn--has-bg v-btn--rounded theme--light v-size--default info lighten-1"><span class="v-btn__content"> Commander </span></a>
+                    </div>
+                </header>
+                <nav class="v-navigation-drawer v-navigation-drawer--close v-navigation-drawer--fixed theme--light" data-booted="true" style="height: 100vh; top: 0px; transform: translateX(-100%); width: 256px; max-height: calc(100% - 0px);">
+                    <div class="v-navigation-drawer__content">
+                        <div tabindex="-1" class="v-list-item theme--light">
+                            <div class="v-list-item__content">
+                                <div class="v-list-item__title text-h6">SageCoders</div>
+                                <div class="v-list-item__subtitle">Menu</div>
+                            </div>
+                        </div>
+                        <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+                        <div class="v-list v-sheet theme--light v-list--dense v-list--nav">
+                            <a tabindex="0" href="#home" class="v-list-item v-list-item--link theme--light">
+                                <div class="v-list-item__content text-center">
+                                    <div class="v-list-item__title">Accueil</div>
+                                </div>
+                            </a>
+                            <hr role="separator" aria-orientation="horizontal" class="pb-1 v-divider theme--light" />
+                            <a tabindex="0" href="#services" class="v-list-item v-list-item--link theme--light">
+                                <div class="v-list-item__content text-center">
+                                    <div class="v-list-item__title">Services</div>
+                                </div>
+                            </a>
+                            <hr role="separator" aria-orientation="horizontal" class="pb-1 v-divider theme--light" />
+                            <a tabindex="0" href="#about" class="v-list-item v-list-item--link theme--light">
+                                <div class="v-list-item__content text-center">
+                                    <div class="v-list-item__title">A Propos</div>
+                                </div>
+                            </a>
+                            <hr role="separator" aria-orientation="horizontal" class="pb-1 v-divider theme--light" />
+                            <a tabindex="0" href="#team" class="v-list-item v-list-item--link theme--light">
+                                <div class="v-list-item__content text-center">
+                                    <div class="v-list-item__title">Equipe</div>
+                                </div>
+                            </a>
+                            <hr role="separator" aria-orientation="horizontal" class="pb-1 v-divider theme--light" />
+                            <a tabindex="0" href="#contact" class="v-list-item v-list-item--link theme--light">
+                                <div class="v-list-item__content text-center">
+                                    <div class="v-list-item__title">Contact</div>
+                                </div>
+                            </a>
+                            <hr role="separator" aria-orientation="horizontal" class="pb-1 v-divider theme--light" />
+                            <div tabindex="-1" class="v-list-item theme--light">
+                                <div class="v-list-item__content text-center">
+                                    <a href="https://api.whatsapp.com/send?phone=2250555884378"
+                                        class="my-3 v-btn v-btn--is-elevated v-btn--has-bg v-btn--rounded theme--light v-size--default info lighten-1">
+                                        <span class="v-btn__content">
+                                            Commander mon site
+                                        </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="v-navigation-drawer__border"></div>
+                </nav>
+            </div>
+            <main class="v-main greys lighten-3" data-booted="true" style="padding: 48px 0px 0px">
+                <div class="v-main__wrap">
+                    <div class="container container--fluid">
+                        <div id="home" class="row">
+                            <div class="col">
+                                <div height="100" class="row justify-space-around">
+                                    <div class="py-lg-16 text-center col-md-6 col-lg-6 col-12">
+                                        <div class="greys lighten-3 v-sheet theme--light" flat="">
+                                            <h1 class="display-2 grey--text text-darken-2">
+                                                Ayez votre site en une semaine max
+                                            </h1>
+                                            <div class="v-card__text">
+                                                Pour tous vos besoin d'application web, mobile et
+                                                desktop et aussi de site web nous sommes disponible
+                                                24h/24 pour vous offrir un service de qualité qui
+                                                respecte les normes de google material design <br /><a
+                                                    href="https://api.whatsapp.com/send?phone=2250555884378" class="my-3 v-btn v-btn--is-elevated v-btn--has-bg v-btn--rounded theme--light v-size--default info lighten-1">
+                                                    <span class="v-btn__content">
+                                                        Commander mon site
+                                                    </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-12">
+                                        <div aria-label="illustration de la section hero " role="img" class="v-image v-responsive theme--light">
+                                            <div class="v-responsive__sizer" style="padding-bottom: 57.5068%"></div>
+                                            <div class="v-image__image v-image__image--cover" style=" background-image: url('https://lesage20.github.io/img/hero.e3abc9b1.svg'); background-position: center center;">
+                                            </div>
+                                            <div class="v-responsive__content" style="width: 1099px"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="services" class="row">
+                            <div class="col col-12">
+                                <h2 class="text-uppercase text-center">Nos Services</h2>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 col-12">
+                                        <div class="v-card v-card--flat v-sheet v-sheet--outlined theme--light">
+                                            <div aria-label="illustration d'application bureautique" role="img" class="v-image v-responsive theme--light" style="height: 300px">
+                                                <div class="v-responsive__sizer" style="padding-bottom: 73.4568%"></div>
+                                                <div class="v-image__image v-image__image--contain" style=" background-image: url('https://lesage20.github.io/img/desktop.55c78a5e.svg'); background-position: center center;"></div>
+                                                <div class="v-responsive__content" style="width: 810px"></div>
+                                            </div>
+                                            <div class="v-card__title">
+                                                <hr role="separator" aria-orientation="horizontal"
+                                                    class="v-divider theme--light" />
+                                                Application Desktop
+                                                <hr role="separator" aria-orientation="horizontal"
+                                                    class="v-divider theme--light" />
+                                            </div>
+                                            <div class="v-card__text">
+                                                Création d'application installable sur pc/bureau
+                                                (Linux, MacOs, Windows) utilisable dépuis votre bureau
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-12">
+                                        <div class="v-card v-card--flat v-sheet v-sheet--outlined theme--light">
+                                            <div aria-label="illustration d'application mobile" role="img"
+                                                class="v-image v-responsive theme--light" style="height: 300px">
+                                                <div class="v-responsive__sizer" style="padding-bottom: 91.253%"></div>
+                                                <div class="v-image__image v-image__image--contain" style=" background-image: url('https://lesage20.github.io/img/mobileUx.53872e64.svg'); background-position: center center;"></div>
+                                                <div class="v-responsive__content" style="width: 846px"></div>
+                                            </div>
+                                            <div class="v-card__title">
+                                                <hr role="separator" aria-orientation="horizontal"
+                                                    class="v-divider theme--light" />
+                                                Application Mobile
+                                                <hr role="separator" aria-orientation="horizontal"
+                                                    class="v-divider theme--light" />
+                                            </div>
+                                            <div class="v-card__text">
+                                                Création d'application installable sur votre
+                                                smartphone ( android, iOS ) utilisable dépuis votre
+                                                ecran d'acceuil
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-12">
+                                        <div class="v-card v-card--flat v-sheet v-sheet--outlined theme--light">
+                                            <div aria-label="illustration d'application web" role="img"
+                                                class="v-image v-responsive theme--light" style="height: 300px">
+                                                <div class="v-responsive__sizer" style="padding-bottom: 75.4566%"></div>
+                                                <div class="v-image__image v-image__image--contain"
+                                                    style=" background-image: url('https://lesage20.github.io/img/website.f50950b1.svg'); background-position: center center;">
+                                                </div>
+                                                <div class="v-responsive__content" style="width: 876px"></div>
+                                            </div>
+                                            <div class="v-card__title">
+                                                <hr role="separator" aria-orientation="horizontal"
+                                                    class="v-divider theme--light" />
+                                                Application Web
+                                                <hr role="separator" aria-orientation="horizontal"
+                                                    class="v-divider theme--light" />
+                                            </div>
+                                            <div class="v-card__text">
+                                                Création d'application web accessible depuis toute
+                                                sorte de navigateur pour faciliter et améliorer la
+                                                gestion de votre entreprise
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-12">
+                                        <div class="v-card v-card--flat v-sheet v-sheet--outlined theme--light">
+                                            <div aria-label="illustration de site web" role="img"
+                                                class="v-image v-responsive theme--light" style="height: 300px">
+                                                <div class="v-responsive__sizer" style="padding-bottom: 59.5628%"></div>
+                                                <div class="v-image__image v-image__image--contain"
+                                                    style=" background-image: url('https://lesage20.github.io/img/webapplication.4b9a02e9.svg'); background-position: center center;">
+                                                </div>
+                                                <div class="v-responsive__content" style="width: 732px"></div>
+                                            </div>
+                                            <div class="v-card__title">
+                                                <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+                                                Site Web
+                                                <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+                                            </div>
+                                            <div class="v-card__text">
+                                                Création de site web accessible depuis toute sorte de
+                                                navigateur pour montrer au monde entier les différents
+                                                services que vous offrez
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="about" class="row">
+                            <div class="col col-12">
+                                <h2 class="text-uppercase text-center">A Propos De Nous</h2>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-md-5 col-lg-5 col-12">
+                                        <div aria-label="Illustration de la  section a propos de nous" role="img"
+                                            class="v-image v-responsive theme--light">
+                                            <div class="v-responsive__sizer" style="padding-bottom: 75%"></div>
+                                            <div class="v-image__image v-image__image--cover"
+                                                style=" background-image: url('https://lesage20.github.io/img/about.8763b02d.svg'); background-position: center center;">
+                                            </div>
+                                            <div class="v-responsive__content" style="width: 1600px"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-lg-7 col-12">
+                                        <div class="v-card v-card--flat v-sheet theme--light">
+                                            <div class="v-card__title">Qui Sommes Nous ?</div>
+                                            <div class="v-card__text">
+                                                SageCoders est un groupe de jeune développeur
+                                                talentueux ayant pour but de subvenir aux besoin de
+                                                l'afrique en general et de la cote d'Ivoire en
+                                                particulier sur le plan digital
+                                            </div>
+                                            <div class="v-card__title">Notre Objectif</div>
+                                            <div class="v-card__text">
+                                                SageCoders envisage à court terme de promouvoir les
+                                                entreprise ivoirienne en developpent les outils
+                                                digitaux necessaire pour celles ci
+                                            </div>
+                                            <div class="v-card__title">Notre mission</div>
+                                            <div class="v-card__text">
+                                                Etre pionnier de la digitalisation de l'Afrique
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="team" class="row">
+                            <div class="col col-12">
+                                <h2 class="text-uppercase text-center">
+                                    Notre Dynamique Equipe
+                                </h2>
+                            </div>
+                            <div class="col">
+                                <div class="row justify-start">
+                                    <div class="col-md-4 col-lg-4 col-12">
+                                        <div class="text-center v-card v-card--flat v-sheet theme--light">
+                                            <div aria-label="illustration de profile d'equipe" role="img"
+                                                class="v-image v-responsive theme--light" style="max-height: 150px">
+                                                <div class="v-responsive__sizer" style="padding-bottom: 100%"></div>
+                                                <div class="v-image__image v-image__image--contain"
+                                                    style="background-image: url('https://lesage20.github.io/img/profile.48153b2e.svg'); background-position: center center;">
+                                                </div>
+                                                <div class="v-responsive__content" style="width: 698px"></div>
+                                            </div>
+                                            <h3 class="text-center grey--text darken-4">
+                                                Ange Aymar Zanou
+                                            </h3>
+                                            <div class="v-card__subtitle">
+                                                Le Sage
+                                                <a href="https://twitter.com/bypassingit"
+                                                    class="v-btn v-btn--text theme--light v-size--x-small">
+                                                    <span class="v-btn__content"><i aria-hidden="true"
+                                                            class="v-icon notranslate mdi mdi-twitter theme--light"
+                                                            style="font-size: 16px"></i></span>
+                                                </a>
+                                                <a href="https://www.linkedin.com/in/ange-aymar-zanou-0b6165183"
+                                                    class="v-btn v-btn--text theme--light v-size--x-small">
+                                                    <span class="v-btn__content"><i aria-hidden="true"
+                                                            class="v-icon notranslate mdi mdi-linkedin theme--light"
+                                                            style="font-size: 16px"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="v-card__text">
+                                                Le Sage est un développeur certifié par NaN digital
+                                                academy et codinGame, ancien developpeur chez
+                                                ivoire-datanet et sogemex industry
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-12">
+                                        <div class="text-center v-card v-card--flat v-sheet theme--light">
+                                            <div aria-label="illustration de profile d'equipe" role="img"
+                                                class="v-image v-responsive theme--light" style="max-height: 150px">
+                                                <div class="v-responsive__sizer" style="padding-bottom: 100%"></div>
+                                                <div class="v-image__image v-image__image--contain"
+                                                    style="background-image: url('https://lesage20.github.io/img/profile.48153b2e.svg'); background-position: center center;">
+                                                </div>
+                                                <div class="v-responsive__content" style="width: 698px"></div>
+                                            </div>
+                                            <h3 class="text-center grey--text darken-4">
+                                                Franck Shalom
+                                            </h3>
+                                            <div class="v-card__subtitle">
+                                                Geek's Corner
+                                                <button type="button"
+                                                    class="v-btn v-btn--text theme--light v-size--x-small">
+                                                    <span class="v-btn__content"><i aria-hidden="true"
+                                                            class="v-icon notranslate mdi mdi-twitter theme--light"
+                                                            style="font-size: 16px"></i></span>
+                                                </button>
+                                            </div>
+                                            <div class="v-card__text">
+                                                Geek's Corner est un etudiant en developpement
+                                                d'application et developpeur freelance, concepteur de
+                                                ivoire-imprimerie
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-12">
+                                        <div class="text-center v-card v-card--flat v-sheet theme--light">
+                                            <div aria-label="illustration de profile d'equipe" role="img"
+                                                class="v-image v-responsive theme--light" style="max-height: 150px">
+                                                <div class="v-responsive__sizer" style="padding-bottom: 100%"></div>
+                                                <div class="v-image__image v-image__image--contain"
+                                                    style="background-image: url('https://lesage20.github.io/img/profile.48153b2e.svg'); background-position: center center;">
+                                                </div>
+                                                <div class="v-responsive__content" style="width: 698px"></div>
+                                            </div>
+                                            <h3 class="text-center grey--text darken-4">
+                                                Cedrick Zouzoua
+                                            </h3>
+                                            <div class="v-card__subtitle">
+                                                Bill
+                                                <a href="https://twitter.com/bypassingit"
+                                                    class="v-btn v-btn--text theme--light v-size--x-small">
+                                                    <span class="v-btn__content"><i aria-hidden="true"
+                                                            class="v-icon notranslate mdi mdi-twitter theme--light"
+                                                            style="font-size: 16px"></i></span>
+                                                </a>
+                                                <button type="button"
+                                                    class="v-btn v-btn--text theme--light v-size--x-small">
+                                                    <span class="v-btn__content"><i aria-hidden="true"
+                                                            class="v-icon notranslate mdi mdi-twitter theme--light"
+                                                            style="font-size: 16px"></i></span>
+                                                </button>
+                                            </div>
+                                            <div class="v-card__text">
+                                                Bill est etudiant en genie logiciel et développeur web
+                                                et mobile chez AXIOS-GROUP. Ancien developpeur chez
+                                                Interactive
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="contact" class="row">
+                            <div class="col col-12">
+                                <h2 class="text-uppercase text-center">Nous Contacter</h2>
+                            </div>
+                            <div class="py-16 col">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-12">
+                                        <div class="text-center v-card v-card--flat v-sheet theme--light">
+                                            <div class="v-avatar" style="height: 48px; min-width: 48px; width: 48px">
+                                                <i aria-hidden="true"
+                                                    class="v-icon notranslate mdi mdi-phone theme--light"></i>
+                                            </div>
+                                            <div class="v-card__subtitle">Téléphone</div>
+                                            <div class="v-card__text">
+                                                <span> +225 07 87 57 20 30 </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-12">
+                                        <div class="text-center v-card v-card--flat v-sheet theme--light">
+                                            <div class="v-avatar" style="height: 48px; min-width: 48px; width: 48px">
+                                                <i aria-hidden="true"
+                                                    class="v-icon notranslate mdi mdi-email theme--light"></i>
+                                            </div>
+                                            <div class="v-card__subtitle">Email</div>
+                                            <div class="v-card__text">
+                                                <a href="mailto:angezanou00@gmail.com">
+                                                    angezanou00@gmail.com
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-12">
+                                        <div class="text-center v-card v-card--flat v-sheet theme--light">
+                                            <div class="v-avatar" style="height: 48px; min-width: 48px; width: 48px">
+                                                <i aria-hidden="true"
+                                                    class="v-icon notranslate mdi mdi-whatsapp theme--light"></i>
+                                            </div>
+                                            <div class="v-card__subtitle">Whatsapp</div>
+                                            <div class="v-card__text">
+                                                <a href="https://api.whatsapp.com/send?phone=225 05 55 88 43 78">
+                                                    225 05 55 88 43 78
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=2250555884378"
+                            class="v-btn v-btn--bottom v-btn--is-elevated v-btn--fab v-btn--fixed v-btn--has-bg v-btn--right v-btn--round theme--dark elevation-16 v-size--default success darken-1">
+                            <span class="v-btn__content"><i aria-hidden="true"
+                                    class="v-icon notranslate mdi mdi-whatsapp theme--dark"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </main>
+            <footer class="v-footer v-sheet theme--dark v-footer--padless" data-booted="true">
+                <div class="flex v-card v-card--flat v-sheet theme--dark rounded-0">
+                    <div color="primary" class="v-card__text py-2 white--text text-center">
+                        2022 — <strong>© SageCoders</strong>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <script src="bootstrap V5/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+
+</body>
+
+</html>
